@@ -1,0 +1,28 @@
+{
+  "name": "uidesigndaily.com",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bobthered/uidesigndaily.com.git"
+  },
+  "keywords": [
+    "ui",
+    "design",
+    "daily",
+    "uidesign",
+    "designdaily",
+    "uidesigndaily",
+    "uidesigndaily.com"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bobthered/uidesigndaily.com/issues"
+  },
+  "homepage": "https://github.com/bobthered/uidesigndaily.com#readme"
+}
