@@ -8,7 +8,7 @@ const config = {
 	kit: {
 		adapter: adapter(),
 		paths: {
-			base: dev ? '' : '/uidesigndaily.com/designs/20211013'
+			base: dev ? '' : '/uidesigndaily.com/designs/20211013/build'
 		},
 		target: '#svelte'
 	},

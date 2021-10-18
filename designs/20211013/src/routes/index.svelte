@@ -60,7 +60,7 @@
                   }}
                 >
                   <img
-                    src="/{name.toLowerCase().replace(/\s/g, '-')}.png"
+                    src="./{name.toLowerCase().replace(/\s/g, '-')}.png"
                     alt={name}
                     class="w-[71px] h-[71px]"
                   />
