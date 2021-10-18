@@ -1,9 +1,9 @@
 <script>
 	// lib
 	import theme from '@bobthered/svelte-tailwindcss-ui/theme';
-	import { grow, shrink } from '@bobthered/svelte-tailwindcss-ui/transitions';
+	import { tilt } from '@bobthered/svelte-tailwindcss-ui/actions';
 	import defaultTheme from '../theme';
-	theme.update(defaultTheme);
+  theme.update(defaultTheme);
 
 	// components
   import { Button, Card, FlexColumn, FlexRow, Icon, Icons } from '@bobthered/svelte-tailwindcss-ui';
@@ -41,29 +41,11 @@
 			</FlexColumn>
 			<FlexRow tw={{ flexDirection: 'flex-col md:flex-row', items: 'items-center', margin: 'mt-[2rem] md:mt-[89px]' }}>
         {#each profiles as {name, menuOpen}, i}
-          <Button tw={{ backgroundColor:'', ringWidth: 'ring-0', textTransform:''}}>
-            <Card
-              tw={{
-                backgroundColor: 'bg-blue-light',
-                borderRadius: 'rounded-[.9375rem]',
-                boxShadow: 'shadow-none',
-                margin: 'mb-[22px] md:mb-[0] md:mr-[22px]'
-              }}
-            >
+          <Card tw={{ backgroundColor: 'bg-blue-light', borderRadius: 'rounded-[.9375rem]', boxShadow: 'shadow-none', margin: 'mb-[22px] md:mb-[0] md:mr-[22px]' }}>
+            <div use:tilt={{perspective: 1000, reverse: true, scale:1.1}}>
               <Card tw={{ boxShadow: 'shadow-sm', height: 'h-[173px]', width: 'w-[173px]' }}>
-                <FlexColumn
-                  tw={{
-                    items: 'items-center',
-                    height: 'h-full',
-                    justifyItems: 'justify-center',
-                    space: 'space-y-[.5rem]'
-                  }}
-                >
-                  <img
-                    src="./{name.toLowerCase().replace(/\s/g, '-')}.png"
-                    alt={name}
-                    class="w-[71px] h-[71px]"
-                  />
+                <FlexColumn tw={{ items: 'items-center', height: 'h-full', justifyItems: 'justify-center', space: 'space-y-[.5rem]' }} >
+                  <img src="./{name.toLowerCase().replace(/\s/g, '-')}.png" alt={name} class="w-[71px] h-[71px]" />
                   <div class="text-[12px] font-mulish">{name}</div>
                   <Button on:click={()=>toggleMenu(i)} tw={{position:'relative'}}>
                     <Icon src={Icons.DotsHorizontal} />
@@ -76,8 +58,8 @@
                   </Button>
                 </FlexColumn>
               </Card>
-            </Card>
-          </Button>
+            </div>
+          </Card>
 				{/each}
 				<Button
 					tw={{
