@@ -4,6 +4,7 @@
 
 | Date 	| Title 	| Design 	| Code 	| Live Preview 	|
 |------	|-------	|--------	|------	|--------------	|
+| Oct. 19 2021  	|     Onboarding List  	|    [Design](https://www.uidesigndaily.com/posts/figma-onboarding-list-to-do-day-1468)    	|   [Code](https://github.com/bobthered/uidesigndaily.com/tree/main/designs/20211019)   	|       [Live Preview](https://bobthered.github.io/uidesigndaily.com/designs/20211019/build/)       	|
 | Oct. 18 2021  	|     Settings  	|    [Design](https://www.uidesigndaily.com/posts/figma-settings-menu-radio-button-day-1467)    	|   [Code](https://github.com/bobthered/uidesigndaily.com/tree/main/designs/20211018)   	|       [Live Preview](https://bobthered.github.io/uidesigndaily.com/designs/20211018/build/)       	|
 | Oct. 17 2021  	|     Groups List  	|    [Design](https://www.uidesigndaily.com/posts/figma-groups-list-dark-theme-app-day-1466)    	|   [Code](https://github.com/bobthered/uidesigndaily.com/tree/main/designs/20211017)   	|       [Live Preview](https://bobthered.github.io/uidesigndaily.com/designs/20211017/build/)       	|
 | Oct. 14 2021  	|     Sign Up  	|    [Design](https://www.uidesigndaily.com/posts/figma-sign-up-authentication-form-day-1465)    	|   [Code](https://github.com/bobthered/uidesigndaily.com/tree/main/designs/20211014)   	|       [Live Preview](https://bobthered.github.io/uidesigndaily.com/designs/20211014/build/)       	|
