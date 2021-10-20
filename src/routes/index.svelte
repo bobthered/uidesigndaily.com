@@ -1,11 +1,22 @@
 <script>
   // lib
-  import theme from '@bobthered/svelte-tailwindcss-ui/theme';
+  import { onMount } from 'svelte';
   import defaultTheme from '../theme';
-  theme.update(defaultTheme);
+  
+  // stores
+  import theme from '@bobthered/svelte-tailwindcss-ui/theme';
 
   // components
   import { Button } from '@bobthered/svelte-tailwindcss-ui';
+
+  // props ( internal )
+
+  // props ( dynamic )
+
+  // lifecycle
+  onMount(async() => {
+    theme.update(defaultTheme);
+  })
 </script>
 
 <svelte:head>
