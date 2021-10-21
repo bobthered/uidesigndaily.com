@@ -8,7 +8,7 @@
   theme.update(defaultTheme);
 
   // components
-  import { Button } from '@bobthered/svelte-tailwindcss-ui';
+  import { Spinner } from '@bobthered/svelte-tailwindcss-ui';
 
   // props ( internal )
   let loaded = false;
@@ -44,7 +44,7 @@
   <title>__TITLE__ - __DATE__ - UI Design Daily</title>
 </svelte:head>
 
-<div class="min-w-screen min-h-screen flex items-center justify-center">
+<div class="min-w-screen min-h-screen flex items-center justify-center p-[1rem]">
 
 </div>
 
