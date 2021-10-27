@@ -1,0 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans&family=Merriweather:wght@700;900&family=Mulish:wght@700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
