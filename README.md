@@ -4,6 +4,7 @@
 
 | Date 	| Title 	| Design 	| Code 	| Live Preview 	|
 |------	|-------	|--------	|------	|--------------	|
+| Oct. 26 2021  	|     Events List  	|    [Design](https://www.uidesigndaily.com/posts/figma-events-list-day-1473)    	|   [Code](https://github.com/bobthered/uidesigndaily.com/tree/main/designs/20211026)   	|       [Live Preview](https://bobthered.github.io/uidesigndaily.com/designs/20211026/build/)       	|
 | Oct. 25 2021  	|     Cards  	|    [Design](https://www.uidesigndaily.com/posts/figma-cards-log-in-day-1472)    	|   [Code](https://github.com/bobthered/uidesigndaily.com/tree/main/designs/20211025)   	|       [Live Preview](https://bobthered.github.io/uidesigndaily.com/designs/20211025/build/)       	|
 | Oct. 24 2021  	|     Card  	|    [Design](https://www.uidesigndaily.com/posts/figma-card-dark-mode-day-1471)    	|   [Code](https://github.com/bobthered/uidesigndaily.com/tree/main/designs/20211024)   	|       [Live Preview](https://bobthered.github.io/uidesigndaily.com/designs/20211024/build/)       	|
 | Oct. 19 2021  	|     Onboarding List  	|    [Design](https://www.uidesigndaily.com/posts/figma-onboarding-list-to-do-day-1468)    	|   [Code](https://github.com/bobthered/uidesigndaily.com/tree/main/designs/20211019)   	|       [Live Preview](https://bobthered.github.io/uidesigndaily.com/designs/20211019/build/)       	|
